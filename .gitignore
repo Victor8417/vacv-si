@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+
+# Data & cache (large / regenerable)
+data/external/cache/
+data/external/*.partial.csv
+data/raw/
+*.csv.gz
+
+# Outputs (regenerable)
+outputs/
+outputs_v2/
+*.pkl
+*.joblib
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*~
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/

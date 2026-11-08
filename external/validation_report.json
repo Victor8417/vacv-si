@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "check": "schema",
+      "status": "OK",
+      "detail": "342 строк, столбцы на месте"
+    },
+    {
+      "check": "smiles_parse",
+      "status": "OK",
+      "detail": "не разобрано RDKit: 0"
+    },
+    {
+      "check": "molecule_size_has_carbon",
+      "status": "OK",
+      "detail": "слишком мелкие/неорганические: 0"
+    },
+    {
+      "check": "value_ranges",
+      "status": "OK",
+      "detail": "вне диапазона/нечисловые: 0"
+    },
+    {
+      "check": "si_equals_cc50_over_ic50",
+      "status": "OK",
+      "detail": "расхождения >2% (по log10): 0 -> удалены"
+    },
+    {
+      "check": "doi_format",
+      "status": "OK",
+      "detail": "с DOI: 100%; неверный формат: 0"
+    },
+    {
+      "check": "exact_duplicates",
+      "status": "OK",
+      "detail": "удалено дублей: 0"
+    },
+    {
+      "check": "conflicting_repeats",
+      "status": "OK",
+      "detail": "групп с разбросом SI >10x: 0 (оставлены)"
+    },
+    {
+      "check": "final_rows",
+      "status": "OK",
+      "detail": "342 из 342"
+    }
+  ],
+  "overlap": {
+    "train": 73,
+    "test": 115
+  },
+  "n_rows": 342
+}

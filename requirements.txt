@@ -1,0 +1,11 @@
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.10
+rdkit-pypi>=2022.9.5; platform_system != "Windows" or python_version < "3.12"
+# On Windows with newer Python you may need conda install rdkit
+joblib>=1.3
+tqdm>=4.65
+requests>=2.31
+pytest>=7.4
+pyyaml>=6.0

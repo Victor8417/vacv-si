@@ -1,0 +1,23 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,404698237,145980797,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\N=C/3\N(C(=O)CS3)CC=C,Unspecified,,,,163.9,TC50,=,163.9,uM
+2,404699239,145981449,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\NC3=NC(=S)CS3,Unspecified,,,,17.5,TC50,=,17.5,uM
+3,404700029,145981973,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\NC3=NC(=CS3)C4=CC=C(C=C4)[N+](=O)[O-],Unspecified,,,,261,TC50,=,261,uM
+4,404703176,145984136,CCCCN\1C(=O)CS/C1=N\N=C\2/C[C@H]3CC[C@@]2(C3(C)C)C,Unspecified,,,,25.2,TC50,=,25.2,uM
+5,404707217,7874233,CC1=CC=C(C=C1)C2=CSC(=N2)N/N=C/3\C[C@H]4CC[C@@]3(C4(C)C)C,Unspecified,,,,13.7,TC50,=,13.7,uM
+6,404707327,145987022,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\N=C/3\NC(=O)CS3,Unspecified,,,,305.2,TC50,=,305.2,uM
+7,404708224,145987603,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\N=C/3\N(C(=O)CS3)CC4=CC=CC=C4,Unspecified,,,,287.8,TC50,=,287.8,uM
+8,404709411,7285246,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\NC3=NC(=CS3)C4=CC=CC=C4,Unspecified,,,,13.9,TC50,=,13.9,uM
+9,404709994,145988723,CC1=CC=C(C=C1)/C=C\2/C(=O)N/C(=N/N=C/3\C[C@H]4CC[C@@]3(C4(C)C)C)/S2,Unspecified,,,,120.5,TC50,=,120.5,uM
+10,404711908,9692960,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\NC3=NC(=CS3)C4=CC=C(C=C4)OC,Unspecified,,,,93.6,TC50,=,93.6,uM
+11,404713143,7571848,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\NC(=S)N,Unspecified,,,,224.8,TC50,=,224.8,uM
+12,404715144,145992037,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\NC3=NC(=CS3)C4=CC=C(C=C4)F,Unspecified,,,,175.8,TC50,=,175.8,uM
+13,404715866,145992487,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\N=C/3\NC(=O)/C(=C/C4=CC=CC=C4)/S3,Unspecified,,,,14.5,TC50,=,14.5,uM
+14,404716230,145992724,CC(C)CCN\1C(=O)CS/C1=N\N=C\2/C[C@H]3CC[C@@]2(C3(C)C)C,Unspecified,,,,37.5,TC50,=,37.5,uM
+15,404717097,145993282,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\NC3=NC(=CS3)C4=CC=C(C=C4)Cl,Unspecified,,,,64.1,TC50,=,64.1,uM
+16,404718316,98055514,C[C@@]1\2CC[C@@H](C1(C)C)C/C2=N\NC3=NC(=CS3)C4=CC=C(C=C4)Br,Unspecified,,,,77.1,TC50,=,77.1,uM
+17,494430641,60933,C1=CN(C(=O)N=C1N)C[C@@H](CO)OCP(=O)(O)O.O.O,Unspecified,,,,475.3,TC50,=,475.3,uM

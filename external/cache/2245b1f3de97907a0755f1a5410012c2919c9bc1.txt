@@ -1,0 +1,12 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,PubChem Standard Value,EC50 Qualifier,EC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","Qualifier (e.g. >, <, =) for PubChem Standard Value","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.","Qualifier (e.g. >, <, =) for EC50",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,,MICROMOLAR,,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,TRUE,,,,,,
+1,378157507,466146,C1=CN(C(=O)N=C1N)CC(CO)OCP(=O)(O)O,Active,,,,EC50,,1.8,,1800,P11362,BDBM275767,Fibroblast growth factor receptor 1
+2,378157507,466146,C1=CN(C(=O)N=C1N)CC(CO)OCP(=O)(O)O,Active,,,,EC50,,2.1,,2100,P11362,BDBM275767,Fibroblast growth factor receptor 1
+3,378157508,18914028,C1C(OCP(=O)(O1)O)CN2C=CC(=NC2=O)N,Active,,,,EC50,,0.97,,970,P11362,BDBM275768,Fibroblast growth factor receptor 1
+4,378157508,18914028,C1C(OCP(=O)(O1)O)CN2C=CC(=NC2=O)N,Active,,,,EC50,,0.72,,720,P11362,BDBM275768,Fibroblast growth factor receptor 1
+5,378157509,78191576,CCCCCCCCCCCCCCCCOCCCOP1(=O)COC(CO1)CN2C=CC(=NC2=O)N,Active,,,,EC50,,0.11,,110,P11362,BDBM275769,Fibroblast growth factor receptor 1
+6,378157509,78191576,CCCCCCCCCCCCCCCCOCCCOP1(=O)COC(CO1)CN2C=CC(=NC2=O)N,Active,,,,EC50,<,0.03,<,30,P11362,BDBM275769,Fibroblast growth factor receptor 1

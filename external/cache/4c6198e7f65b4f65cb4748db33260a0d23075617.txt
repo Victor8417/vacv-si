@@ -1,0 +1,19 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,103208535,60613,C1=CN(C(=O)N=C1N)C[C@@H](CO)OCP(=O)(O)O,Unspecified,,,,48.24,IC50,=,48240,nM
+2,494395089,57330419,C1C2C1C3C=CC2C(C3C(=O)O)C(=O)NNC(=O)C4=CC=C(C=C4)C(F)(F)F,Active,,,,0.009,IC50,=,9,nM
+3,528352233,51063590,CC1(CC2=C(C(=O)C1)N(C(=N2)C3=CC=C(C=C3)C#N)O)C,Unspecified,,,,17.13,IC50,=,17130,nM
+4,528352317,168073518,CC1=C(N(C(=N1)C2=CC=C(C=C2)[N+](=O)[O-])OC)C(=O)C,Unspecified,,,,22.27,IC50,=,22270,nM
+5,528352471,168073517,CC1=C(N(C(=N1)C2=CC=C(C=C2)[N+](=O)[O-])O)C(=O)C,Active,,,,5.9,IC50,=,5900,nM
+6,528352741,178296858,CC1=CC(=C(C=C1)C)CON2C3=C(CC(CC3=O)(C)C)N=C2C4=CC=C(C=C4)[N+](=O)[O-],Unspecified,,,,32.33,IC50,=,32330,nM
+7,528355964,178299338,CC1(CC2=C(C(=O)C1)N(C(=N2)C3=CC=C(C=C3)[N+](=O)[O-])O)C,Active,,,,1.16,IC50,=,1160,nM
+8,528357194,178300263,CC1(CC2=C(C(=O)C1)N(C(=N2)C3=CC=C(C=C3)C(F)(F)F)O)C,Active,,,,2.41,IC50,=,2410,nM
+9,528357355,178300384,CC1(CC2=C(C(=O)C1)N(C(=N2)C3=CC=C(C=C3)[N+](=O)[O-])OCC4=CC=CC=C4)C,Unspecified,,,,78.18,IC50,=,78180,nM
+10,528358146,178300967,CC1(CC2=C(C(=O)C1)N(C(=N2)C3=CC=C(C=C3)[N+](=O)[O-])OCC4=CC(=C(C=C4)Cl)Cl)C,Active,,,,7.04,IC50,=,7040,nM
+11,528358244,168073515,CC1(CC2=C(C(=O)C1)N(C(=N2)C3=CC=C(C=C3)[N+](=O)[O-])OC)C,Unspecified,,,,17.92,IC50,=,17920,nM
+12,528360464,178302645,CC1(CC2=C(C(=O)C1)N(C(=N2)C3=CC=C(C=C3)[N+](=O)[O-])OCC4=C(C=CC=C4F)F)C,Active,,,,7.39,IC50,=,7390,nM
+13,528378505,178315936,CC1(CC2=C(C(=O)C1)N(C(=N2)C3=CC=C(C=C3)[N+](=O)[O-])OCC4=CC=CC=C4Br)C,Unspecified,,,,29.07,IC50,=,29070,nM

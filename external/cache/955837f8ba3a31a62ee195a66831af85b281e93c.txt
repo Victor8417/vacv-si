@@ -1,0 +1,22 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103202903,446727,C1[C@@H]([C@H](O[C@H]1N2C=C(C(=O)NC2=O)/C=C/Br)CO)O,Active,,,,0.006,EC50,=,6,nM,
+2,103303173,135542257,C1=NC2=C(N1C[C@@H](CO)OCP(=O)(O)O)N=C(NC2=O)N,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+3,103504490,135398740,C1=NC2=C(N1COC(CO)CO)N=C(NC2=O)N,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+4,103504725,135398513,C1=NC2=C(N1COCCO)N=C(NC2=O)N,Active,,,,2.84,EC50,=,2840,nM,
+5,160669571,136276914,CCCCCCCCCCCCCCCCOCCCOP(=O)(CCOCCN1C=NC2=C1N=CNC2=O)O,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+6,160680241,136232614,CCCCCCCCCCCCCCCCOCCCOP(=O)(CO[C@@H](CN1C=NC2=C1N=CNC2=O)CO)OCCCOCCCCCCCCCCCCCCCC,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+7,160680242,136266873,CCCCCCCCCCCCCCCCOCCCOP(=O)(CO[C@@H](CN1C=NC2=C1N=C(NC2=O)N)CO)OCCCOCCCCCCCCCCCCCCCC,Active,,,,1.2,EC50,=,1200,nM,
+8,160680243,136232615,CCCCCCCCCCCCCCCCOCCCOP(=O)(CO[C@@H](CN1C=NC2=C1N=CNC2=O)CO)O,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+9,160680244,136263937,CCCCCCCCCCCCCCCCOCCCOP(=O)(CO[C@@H](CN1C=NC2=C1N=C(NC2=O)N)CO)O,Active,,,,0.0025,EC50,=,2.5,nM,
+10,160685555,136232612,CCCCCCCCCCCCCCCCOCCCOP(=O)(CCOCCN1C=NC2=C1N=CNC2=O)OCCCOCCCCCCCCCCCCCCCC,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+11,160685556,136252883,CCCCCCCCCCCCCCCCOCCCOP(=O)(CCOCCN1C=NC2=C1N=C(NC2=O)N)O,Active,,,,0.19,EC50,=,190,nM,
+12,160685557,136232616,CCCCCCCCCCCCCCCCOCCCOP1(=O)CO[C@H](CO1)CN2C=NC3=C2N=CNC3=O,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+13,160685558,135480705,C1[C@@H](OCP(=O)(O1)O)CN2C=NC3=C2N=C(NC3=O)N,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+14,160707045,136232613,CCCCCCCCCCCCCCCCOCCCOP(=O)(CCOCCN1C=NC2=C1N=C(NC2=O)N)OCCCOCCCCCCCCCCCCCCCC,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+15,160707046,136232617,CCCCCCCCCCCCCCCCOCCCOP1(=O)CO[C@H](CO1)CN2C=NC3=C2N=C(NC3=O)N,Active,,,,0.001,EC50,=,1,nM,
+16,494430641,60933,C1=CN(C(=O)N=C1N)C[C@@H](CO)OCP(=O)(O)O.O.O,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined

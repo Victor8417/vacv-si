@@ -1,0 +1,20 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103202903,446727,C1[C@@H]([C@H](O[C@H]1N2C=C(C(=O)NC2=O)/C=C/Br)CO)O,Unspecified,,,,29,EC50,=,29000,nM,
+2,103504490,135398740,C1=NC2=C(N1COC(CO)CO)N=C(NC2=O)N,Unspecified,,,,100,EC50,>,100000,nM,
+3,103504725,135398513,C1=NC2=C(N1COCCO)N=C(NC2=O)N,Unspecified,,,,250,EC50,>,250000,nM,Outside typical range
+4,194158173,136240224,CCN(CC)CN1C2=CC=CC=C2C(=C1O)N=NC(=S)NC3=CC=C(C=C3)OC,Unspecified,,,,20,EC50,>,20000,nM,
+5,194165115,1545677,CCN(CC)CN1C2=CC=CC=C2C(=C1O)N=NC(=S)N,Unspecified,,,,100,EC50,>,100000,nM,
+6,194171948,136245014,CCN(CC)CN1C2=CC=CC=C2C(=C1O)N=NC(=S)NC3=CC=C(C=C3)C,Unspecified,,,,11,EC50,=,11000,nM,
+7,194171949,136245015,CCN(CC)CN1C2=C(C=C(C=C2)Cl)C(=C1O)N=NC(=S)NC3=CC=C(C=C3)Cl,Unspecified,,,,20,EC50,>,20000,nM,
+8,194171950,136245016,CCN(CC)CN1C2=C(C=C(C=C2)Cl)C(=C1O)N=NC(=S)N,Unspecified,,,,20,EC50,=,20000,nM,
+9,194178809,136245239,CCN(CC)CN1C2=C(C=C(C=C2)Cl)C(=C1O)N=NC(=S)NC3=CC=C(C=C3)OC,Unspecified,,,,20,EC50,>,20000,nM,
+10,194185642,136241578,CCN(CC)CN1C2=CC=CC=C2C(=C1O)N=NC(=S)NC3=CC=C(C=C3)Cl,Unspecified,,,,20,EC50,>=,20000,nM,
+11,194185643,136241579,CCN(CC)CN1C2=C(C=C(C=C2)Cl)C(=C1O)N=NC(=S)NC3=CC=CC=C3,Unspecified,,,,20,EC50,>,20000,nM,
+12,194185644,136241580,CCN(CC)CN1C2=C(C=C(C=C2)Cl)C(=C1O)N=NC(=S)NC3=CC=C(C=C3)C,Unspecified,,,,20,EC50,>,20000,nM,
+13,194185645,136241581,CCN(CC)CN1C2=CC=CC=C2C(=C1O)N=NC(=S)NC3=CC=CC=C3,Unspecified,,,,20,EC50,=,20000,nM,
+14,494430641,60933,C1=CN(C(=O)N=C1N)C[C@@H](CO)OCP(=O)(O)O.O.O,Active,,,,10,EC50,=,10000,nM,
